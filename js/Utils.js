@@ -12,9 +12,9 @@ define([
           return v.toString(16);
       });
     },
-    logObj: function(obj){            
+    logObj: function(obj){
       console.log("==log obj== : " + obj);
-      for(key in obj){
+      for(var key in obj){
         if(obj.hasOwnProperty(key)){
           console.log("logObj() " + key + ": " + obj[key]);
         }
@@ -23,5 +23,5 @@ define([
     sayHello: function(){
       alert("Utils.js Hello");
     },
-  }
+  };
 });

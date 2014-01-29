@@ -17,10 +17,15 @@ require.config({
 });
 
 require([
+	"react",
 	"jsx!CommentBox"
 ], function(
+	React,
 	CommentBox
 ){
-	/* CommentBox inits react */
+  React.renderComponent(
+    CommentBox(null),
+    document.getElementById('content')
+  );
 });
 

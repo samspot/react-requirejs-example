@@ -2,12 +2,12 @@
  * @jsx React.DOM
  */
 define([
-  'react', 
-  'CommentService', 
+  'react',
+  'CommentService',
   'jsx!CommentList',
   'jsx!CommentForm'
 ], function(
-  React, 
+  React,
   CommentService,
   CommentList,
   CommentForm
@@ -25,7 +25,7 @@ define([
       this.setState({data: newComments});
     },
     handleCommentDelete: function(key){
-      console.log("CommentBox.handleCommentDelete() delete key = " + key); 
+      console.log("CommentBox.handleCommentDelete() delete key = " + key);
 
       var comments = this.state.data;
       var newComments = _.filter(comments, function(c){
@@ -44,7 +44,7 @@ define([
     render: function(){
       return (
         <div className="commentBox">
-          <h1>Comments</h1>
+          <h1>All Comments asdf jjjsszzzff</h1>
           <CommentList data={this.state.data} onCommentDelete={this.handleCommentDelete} />
           <CommentForm onCommentSubmit={this.handleCommentSubmit} />
         </div>
@@ -52,9 +52,5 @@ define([
     }
   });
 
-
-  React.renderComponent(
-    <CommentBox/>,
-    document.getElementById('content')
-  );
+  return CommentBox;
 });
