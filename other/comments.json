@@ -1,0 +1,22 @@
+[
+	{
+		"author": "Pete Hunt", 
+		"text": "This is one comment",
+		"key": 1
+	},
+	{
+		"author": "Jordan Walke", 
+		"text": "This is *another* comment",
+		"key": 2
+	},
+	{
+		"author": "Sam", 
+		"text": "React.js is interesting",
+		"key": 3
+	},
+	{
+		"author": "Cynthia", 
+		"text": "I think it's boring --- yeahhhhhhh  bbb",
+		"key": 4
+	}
+]
