@@ -44,7 +44,7 @@ define([
     render: function(){
       return (
         <div className="commentBox">
-          <h1>All Comments asdf jjjsszzzff</h1>
+          <h1>All Comments</h1>
           <CommentList data={this.state.data} onCommentDelete={this.handleCommentDelete} />
           <CommentForm onCommentSubmit={this.handleCommentSubmit} />
         </div>
