@@ -1,0 +1,25 @@
+{
+  "name": "react-requirejs-example",
+  "version": "0.0.0",
+  "description": "react-requirejs-example\r =======================",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-serve": "~0.1.6",
+    "grunt-init": "~0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samspot/react-requirejs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samspot/react-requirejs-example/issues"
+  },
+  "homepage": "https://github.com/samspot/react-requirejs-example"
+}
