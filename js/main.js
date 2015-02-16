@@ -7,7 +7,8 @@ require.config({
 		JSXTransformer: 'lib/JSXTransformer',
 		_: 'lib/underscore-min',
 		showdown: 'lib/showdown.min',
-		text: 'lib/text'
+		text: 'lib/text',
+		Utils: 'lib/Utils'
 	},
 
 	shim: {
