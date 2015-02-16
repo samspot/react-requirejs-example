@@ -6,13 +6,18 @@ require.config({
 		jsx: 'lib/jsx',
 		JSXTransformer: 'lib/JSXTransformer',
 		_: 'lib/underscore-min',
-		showdown: 'lib/showdown.min'
+		showdown: 'lib/showdown.min',
+		text: 'lib/text'
 	},
 
 	shim: {
 		JSXTransformer: {
 			exports: "JSXTransformer"
 		}
+	},
+
+	jsx: {
+		fileExtension: '.jsx'
 	}
 });
 
